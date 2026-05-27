@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+<section class="main"  >
+      <div class="upper">
+        <div class="up1">
+            <form class="search">
+                  <i class="fa-solid fa-magnifying-glass" id="ic1"></i>
+                  <input type="text" placeholder="Search your city" class="ip1">
+            </form>
+           
+        </div>
+         
+      </div>
+
+
+
+      <div class="middle">
+            <h1 class="cityname"></h1>
+            <p class="wdate"></p>
+            <div>
+                <p class="wcast"></p>
+                <div class="wicon"></div>
+            </div>
+            <p class="wtemp"></p>
+            <div class="mm">
+                <p class="wmin"></p>
+                <p class="wmax"></p>
+            </div>
+      </div>
+
+
+
+      <div class="lower">
+         <div class="box">
+             <i class="fa-solid fa-temperature-low"></i>
+             <div>
+                <p>Feels like </p>
+                <p class="tp">15&#176</p>
+             </div>
+             
+         </div>
+         <div class="box">
+              <i class="fa-solid fa-droplet"></i>
+              <div>
+                <p>Humidity</p>
+                <p class="hum"></p>
+              </div>
+              
+         </div>
+         <div class="box">
+            <i class="fa-solid fa-wind"></i>
+            <div>
+                 <p>Wind</p>
+                 <p class="winds"></p>
+            </div>
+          
+         </div>
+         <div class="box">
+          <i class="fa-regular fa-gem"></i>
+          <div>
+            <p>Pressure</p>
+            <p class="pressure"></p>
+         </div>
+          
+         </div>
+      </div>
+
+</section>
+
+
+<script src="node.js"></script>
+</body>
+</html>
